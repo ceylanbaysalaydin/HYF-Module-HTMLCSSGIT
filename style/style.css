@@ -1,0 +1,103 @@
+html{
+   font-size: 12px; 
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: #F8F9FA;
+}
+.bg-grey{
+    background-color: #F8F9FA;
+}
+div.row{
+    margin-top:110px;
+}
+.per-info{
+    padding: 0;
+    background-color:#FFFFFF;
+}
+.profile-picture{
+ object-fit: cover;
+ object-position:center;
+ height: 320px;
+ width: 100%;
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 2;
+    text-align: center;
+}
+h2,h4{
+    font-size: 2rem;
+    line-height: 2;
+    text-align: center;
+}
+h3{
+    font-size: 2rem;
+    line-height: 2;
+}
+.resume h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bold{
+    font-weight: 500;
+}
+ul.list-group-horizontal a{
+    color: dimgray;
+}
+
+ul.list-group-horizontal a:hover{
+    color: rgba(105, 105, 105,.7);
+}
+.arrow{
+    font-size: 1.5em;
+}
+.left-border{
+    border-right: 3px solid rgba(85, 112, 82,.6);
+    border-top: 3px solid  rgba(85, 112, 82,.6);
+    border-top-right-radius: 10px;
+}
+.resume{
+    background-color:#FFFFFF;
+    margin:8%;
+    margin-top:0;
+    padding:2%;
+    
+}
+footer{
+    background-color: rgba(85, 112, 82,.8);
+}
+
+@media (min-width: 576px) { 
+    html{
+        font-size: 13px;
+    }
+}
+@media (min-width: 768px) { 
+    html{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+    h2,h3,h4{
+        font-size: 1.3rem;
+    }
+   
+ }
+@media (min-width: 992px) { 
+    html{
+        font-size: 15px;
+    }
+    
+}
+@media (min-width: 1200px) { 
+    html{
+        font-size: 16px;
+    }
+ }
