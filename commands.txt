@@ -16,5 +16,4 @@ mkdir -p nested/folder/just/for/fun
 
 #3-How do I append a message to a file, without a newline character
 
-echo "first message" >> file.txt 
-echo "second message" >> file.txt
+echo "first message" >> file.txt && echo "second message" >> file.txt
