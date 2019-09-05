@@ -209,6 +209,9 @@ img:hover {
 #grid-flex li:hover>p {
     color: white;
 }
+#grid-flex li:hover > h3 {
+    color:rgba(66, 54, 42, .9);
+}
 
 /* Media Queries */
 
